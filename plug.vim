@@ -27,6 +27,13 @@ if has("nvim")
     " Plugin for HTML snipper 
     " **********************************
     Plug 'mattn/emmet-vim'
+    " Python3 Enviroment - virtualenv 
+    " **********************************
+    Plug 'sansyrox/vim-python-virtualenv'
+    Plug 'davidhalter/jedi-vim'
+    Plug 'foo/bar', {'on': []}
+    Plug 'scrooloose/nerdcommenter'
+
 endif
 
 call plug#end()
