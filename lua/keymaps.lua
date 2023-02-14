@@ -12,3 +12,5 @@ local cmd = vim.cmd
 -----------------------------------------------------------
 
 map('n', '<leader>c', ':nohl<CR>', default_opts)
+
+map('i', 'jk', '<Esc>', default_opts)
