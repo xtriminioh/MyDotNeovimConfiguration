@@ -19,6 +19,8 @@ opt.relativenumber = true
 opt.showmatch = true
 opt.linebreak = true
 opt.termguicolors = true
+opt.guifont = "Cascadia Code"
+
 
 -----------------------------------------------------------
 -- General
