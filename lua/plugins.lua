@@ -26,6 +26,10 @@ packer.startup(function(use)
 
   -- Common utilities
   use 'nvim-lua/plenary.nvim'
+  use {
+	  'nvim-treesitter/nvim-treesitter',
+	  run = function() require('nvim-treesitter.install').update({ with_sync = true}) end,
+  }
 
   -- File Icons and Telescope 
   use 'kyazdani42/nvim-web-devicons' --icons
@@ -35,7 +39,5 @@ packer.startup(function(use)
   -- Autopairs 
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
-
-
 
 end)
