@@ -6,8 +6,8 @@
 -- Neovim API aliases
 -----------------------------------------------------------
 -----------------------------------------------------------
-local opt = vim.opt 				--options
-local g = vim.g					--global
+local opt = vim.opt --options
+local g = vim.g		  --global
 -----------------------------------------------------------
 -----------------------------------------------------------
 
@@ -15,12 +15,22 @@ local g = vim.g					--global
 -- Neovim UI
 -----------------------------------------------------------
 opt.number = true
+opt.title = true
 opt.relativenumber = true
 opt.showmatch = true
 opt.linebreak = true
-opt.termguicolors = true
-opt.guifont = "Cascadia Code"
 
+-----------------------------------------------------------
+-- Indent 
+-----------------------------------------------------------
+opt.tabstop = 2
+opt.shiftwidth = 2
+opt.expandtab = true
+opt.smartindent = true
+-----------------------------------------------------------
+-- Space 
+-----------------------------------------------------------
+opt.backspace = {'start','eol','indent'}
 
 -----------------------------------------------------------
 -- General

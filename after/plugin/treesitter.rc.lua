@@ -24,8 +24,7 @@ ts.setup {
     "latex",
     "ninja",
     "python",
-    "scss",
-    "sql"
+    "scss"
   },
   autotag = {
     enable = true,
