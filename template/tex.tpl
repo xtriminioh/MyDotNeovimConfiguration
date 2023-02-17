@@ -37,7 +37,9 @@ inner sep=1pt,draw, #2, thick, fill=#2](myanchor)
 \begin{titlepage}
 
   \begin{center}
-    {\includegraphics[width=0.65\linewidth]{/Imgs/unahvs-logo.png}\par}
+    {\includegraphics[width=0.65\linewidth]{/home/xtriminio/.config/nvim/template/Imgs/unahWallpaper.png}\par}
+
+    
   
     {\bfseries\Huge Universidad Nacional Autónoma de\\
                      Honduras en el valle de Sula \par}
