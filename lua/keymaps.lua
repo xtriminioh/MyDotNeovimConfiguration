@@ -11,7 +11,7 @@ local cmd = vim.cmd
 -- Neovim shortcuts
 -----------------------------------------------------------
 
-map('i', 'jk', '<Esc>', default_opts)
+map('i', 'jk', '<Esc>:w<CR>', default_opts)
 
 map('n', '<S-j>', '10j', default_opts)
 map('n', '<S-k>', '10k', default_opts)

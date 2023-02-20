@@ -3,6 +3,8 @@
 \parindent=0mm
 \usepackage[utf8]{inputenc}
 
+\usepackage{hyperref}
+
 \usepackage{multicol}
 
 \usepackage{graphicx}

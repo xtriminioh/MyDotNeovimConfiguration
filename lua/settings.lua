@@ -23,7 +23,7 @@ opt.relativenumber = true
 opt.showmatch = true
 opt.colorcolumn = '80'
 opt.linebreak = true
-opt.wrap = false
+opt.wrap = true
 opt.list = true
 opt.listchars = 'tab:▸ ,space:·,nbsp:␣,trail:•,precedes:«,extends:»'
 
